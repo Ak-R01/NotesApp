@@ -14,12 +14,6 @@ A full-stack **Notes App** built using the **MERN stack (MongoDB, Express, React
 
 ---
 
-## 🖼️ Demo Screenshot
-
-![Notes App Screenshot](./screenshot.png) <!-- Optional: Add a real screenshot if available -->
-
----
-
 ## 🛠️ Tech Stack
 
 | Layer       | Technology               |
@@ -71,8 +65,9 @@ npm start
 React app runs on http://localhost:3000.
 
 🔗 API Endpoints
-Method Endpoint Description
-GET /api/notes Get all notes
-POST /api/notes Add a new note
-PUT /api/notes/:id Update a note
-DELETE /api/notes/:id Delete a note
+| Method | Endpoint | Description |
+|--------|----------|------------|
+|GET |/api/notes |Get all notes|
+|POST |/api/notes| Add a new note|
+|PUT |/api/notes/:id| Update a note|
+|DELETE| /api/notes/:id| Delete a note|
